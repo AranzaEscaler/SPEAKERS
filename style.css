@@ -13,7 +13,7 @@ body {
 }
 
 .speakers {
-    margin: 5rem;
+    margin: 2rem;
     text-align: center;
 }
 
@@ -24,6 +24,15 @@ body {
 
 .speakers__img {
     border-radius: 50%;
-    width: 140px;
+    width: 100px;
     padding: 15px;
+}
+
+.speakers__link {
+    color: #673AB7;
+    text-decoration: none;
+}
+
+.speakers__icon {
+    width: 20px;
 }
