@@ -39,8 +39,10 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px 5px;
     gap: 10px;
+    
 }
 
 .speakers__link:hover {
@@ -53,5 +55,5 @@ body {
 
 .speakers__icon {
     transition: .3s;
-    width: 20px;
+    width: 60px;
 }
