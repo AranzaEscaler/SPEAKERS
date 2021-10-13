@@ -14,25 +14,44 @@ body {
 
 .speakers {
     margin: 2rem;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.speakers__br {
+.speakers__container {
     display: flex;
-    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.speakers__link-bio {
+    text-decoration: none;
 }
 
 .speakers__img {
     border-radius: 50%;
-    width: 100px;
+    width: 96px;
     padding: 15px;
 }
 
 .speakers__link {
     color: #673AB7;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    gap: 10px;
+}
+
+.speakers__link:hover {
+    background-color: #0005;
+}
+
+.speakers__link:hover .speakers__icon {
+    transform: translateX(10px);
 }
 
 .speakers__icon {
+    transition: .3s;
     width: 20px;
 }
