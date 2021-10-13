@@ -4,7 +4,24 @@ html {
 }
 body {
     margin: 0;
-    background-color: #efefef;
+    background-color: white;
+}
+
+.hero-speakers {
+    margin: 150px 0px 115px;
+}
+
+.hero-speakers__titulo {
+    font-size: 40px;
+    color: #424242;
+    margin: 40px 150px;
+}
+
+.hero-speakers__text {
+font-size: 16px;
+color: #424242;
+margin: 40px 150px;
+display: flex;
 }
 
 .speakers__titulo {
@@ -41,8 +58,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 5px;
-    gap: 10px;
-    
+    gap: 1px;
 }
 
 .speakers__link:hover {
